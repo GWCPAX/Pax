@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +13,90 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Pax" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BkX-8H-dsY">
+                                <rect key="frame" x="200" y="312" width="159" height="163"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="163" id="Nwf-Ls-OvT"/>
+                                    <constraint firstAttribute="width" constant="159" id="bok-cl-GIB"/>
+                                </constraints>
+                                <state key="normal" title="Music" image="MUSIC"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7U1-Gj-rsD">
+                                <rect key="frame" x="25" y="258" width="176" height="107"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="176" id="aku-oL-0hh"/>
+                                    <constraint firstAttribute="height" constant="107" id="gPt-gH-LG2"/>
+                                </constraints>
+                                <state key="normal" title="Call" image="CALL"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9lu-55-oc3">
+                                <rect key="frame" x="8" y="340" width="201" height="142"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="142" id="Xwb-5X-Eqg"/>
+                                    <constraint firstAttribute="width" constant="201" id="bkW-pL-w9I"/>
+                                </constraints>
+                                <state key="normal" title="Meditation" image="MEDITATION"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bzr-od-ETV">
+                                <rect key="frame" x="0.0" y="470" width="375" height="177"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="177" id="MwA-vV-wiH"/>
+                                    <constraint firstAttribute="width" constant="375" id="VHs-Et-Uhf"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="TIPS"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8BZ-sh-OgS">
+                                <rect key="frame" x="8" y="51" width="198" height="211"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="198" id="2JY-HT-ONW"/>
+                                    <constraint firstAttribute="height" constant="211" id="ZTZ-lT-Dl6"/>
+                                </constraints>
+                                <state key="normal" title="Ollie" image="OLLIE"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NHM-oO-XJk">
+                                <rect key="frame" x="200" y="67" width="159" height="247"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="159" id="3ug-Q7-grt"/>
+                                    <constraint firstAttribute="height" constant="247" id="O3u-Wd-9hf"/>
+                                </constraints>
+                                <state key="normal" title="Stress Relief" image="STRESS"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="BkX-8H-dsY" firstAttribute="top" secondItem="8BZ-sh-OgS" secondAttribute="bottom" constant="50" id="0Rv-fn-CDm"/>
+                            <constraint firstItem="Bzr-od-ETV" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="0fH-bT-Jdx"/>
+                            <constraint firstItem="7U1-Gj-rsD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="3B2-yL-zAW"/>
+                            <constraint firstItem="Bzr-od-ETV" firstAttribute="top" secondItem="7U1-Gj-rsD" secondAttribute="bottom" constant="105" id="43X-lp-wQp"/>
+                            <constraint firstItem="BkX-8H-dsY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="200" id="8HB-xu-kQ6"/>
+                            <constraint firstItem="8BZ-sh-OgS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="8If-kX-sET"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="9lu-55-oc3" secondAttribute="bottom" constant="185" id="JDG-RT-t8f"/>
+                            <constraint firstItem="9lu-55-oc3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="UNY-Zk-kR9"/>
+                            <constraint firstItem="Bzr-od-ETV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="YHZ-pW-TTr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="BkX-8H-dsY" secondAttribute="bottom" constant="192" id="aQU-9t-Dig"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Bzr-od-ETV" secondAttribute="bottom" constant="20" id="oq7-0Q-14E"/>
+                            <constraint firstItem="9lu-55-oc3" firstAttribute="top" secondItem="NHM-oO-XJk" secondAttribute="bottom" constant="26" id="pg3-9n-CJo"/>
+                            <constraint firstItem="NHM-oO-XJk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="200" id="uzL-FC-XgC"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="31.934032983508249"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="CALL" width="311" height="192"/>
+        <image name="MEDITATION" width="575" height="241"/>
+        <image name="MUSIC" width="308" height="265"/>
+        <image name="OLLIE" width="328" height="298"/>
+        <image name="STRESS" width="331" height="417"/>
+        <image name="TIPS" width="591" height="301"/>
+    </resources>
 </document>
