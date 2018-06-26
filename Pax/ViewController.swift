@@ -35,7 +35,7 @@ class ViewController: UIViewController {
                        delay: 0,
                        options: [.autoreverse, .repeat],
                        animations: {
-                        self.Circle9.transform = CGAffineTransform(scaleX: 0.5, y: 0.5)
+                        self.Circle9.transform = CGAffineTransform(scaleX: 1.3, y: 1.3)
         },
                        completion: nil
             
@@ -44,7 +44,7 @@ class ViewController: UIViewController {
                        delay: 0,
                        options: [.autoreverse, .repeat],
                        animations: {
-                        self.Circle8.transform = CGAffineTransform(scaleX: 0.5, y: 0.5)
+                        self.Circle8.transform = CGAffineTransform(scaleX: 1.3, y: 1.3)
         },
                        completion: nil
             
@@ -53,7 +53,7 @@ class ViewController: UIViewController {
                        delay: 0,
                        options: [.autoreverse, .repeat],
                        animations: {
-                        self.Circle7.transform = CGAffineTransform(scaleX: 0.5, y: 0.5)
+                        self.Circle7.transform = CGAffineTransform(scaleX: 1.3, y: 1.3)
         },
                        completion: nil
             
@@ -62,7 +62,7 @@ class ViewController: UIViewController {
                        delay: 0,
                        options: [.autoreverse, .repeat],
                        animations: {
-                        self.Circle6.transform = CGAffineTransform(scaleX: 0.5, y: 0.5)
+                        self.Circle6.transform = CGAffineTransform(scaleX: 1.3, y: 1.3)
         },
                        completion: nil
             
@@ -71,7 +71,7 @@ class ViewController: UIViewController {
                        delay: 0,
                        options: [.autoreverse, .repeat],
                        animations: {
-                        self.Circle5.transform = CGAffineTransform(scaleX: 0.5, y: 0.5)
+                        self.Circle5.transform = CGAffineTransform(scaleX: 1.3, y: 1.3)
         },
                        completion: nil
             
@@ -80,7 +80,7 @@ class ViewController: UIViewController {
                        delay: 0,
                        options: [.autoreverse, .repeat],
                        animations: {
-                        self.Circle4.transform = CGAffineTransform(scaleX: 0.5, y: 0.5)
+                        self.Circle4.transform = CGAffineTransform(scaleX: 1.3, y: 1.3)
         },
                        completion: nil
             
@@ -89,7 +89,7 @@ class ViewController: UIViewController {
                        delay: 0,
                        options: [.autoreverse, .repeat],
                        animations: {
-                        self.Circle3.transform = CGAffineTransform(scaleX: 0.5, y: 0.5)
+                        self.Circle3.transform = CGAffineTransform(scaleX: 1.3, y: 1.3)
         },
                        completion: nil
             
@@ -98,7 +98,7 @@ class ViewController: UIViewController {
                        delay: 0,
                        options: [.autoreverse, .repeat],
                        animations: {
-                        self.Circle2.transform = CGAffineTransform(scaleX: 0.5, y: 0.5)
+                        self.Circle2.transform = CGAffineTransform(scaleX: 1.3, y: 1.3)
         },
                        completion: nil
             
@@ -107,7 +107,7 @@ class ViewController: UIViewController {
                        delay: 0,
                        options: [.autoreverse, .repeat],
                        animations: {
-                        self.Circle1.transform = CGAffineTransform(scaleX: 0.5, y: 0.5)
+                        self.Circle1.transform = CGAffineTransform(scaleX: 1.3, y: 1.3)
         },
                        completion: nil
             
