@@ -10,7 +10,6 @@
 		CCC3BBF720E183A000B65598 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC3BBF620E183A000B65598 /* AppDelegate.swift */; };
 		CCC3BBF920E183A000B65598 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC3BBF820E183A000B65598 /* ViewController.swift */; };
 		CCC3BBFC20E183A000B65598 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCC3BBFA20E183A000B65598 /* Main.storyboard */; };
-		CCC3BBFF20E183A000B65598 /* Pax.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CCC3BBFD20E183A000B65598 /* Pax.xcdatamodeld */; };
 		CCC3BC0120E183A000B65598 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCC3BC0020E183A000B65598 /* Assets.xcassets */; };
 		CCC3BC0420E183A000B65598 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCC3BC0220E183A000B65598 /* LaunchScreen.storyboard */; };
 		CCC3BC0F20E183A100B65598 /* PaxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC3BC0E20E183A100B65598 /* PaxTests.swift */; };
@@ -39,7 +38,6 @@
 		CCC3BBF620E183A000B65598 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCC3BBF820E183A000B65598 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CCC3BBFB20E183A000B65598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CCC3BBFE20E183A000B65598 /* Pax.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pax.xcdatamodel; sourceTree = "<group>"; };
 		CCC3BC0020E183A000B65598 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCC3BC0320E183A000B65598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CCC3BC0520E183A000B65598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -105,7 +103,6 @@
 				CCC3BC0020E183A000B65598 /* Assets.xcassets */,
 				CCC3BC0220E183A000B65598 /* LaunchScreen.storyboard */,
 				CCC3BC0520E183A000B65598 /* Info.plist */,
-				CCC3BBFD20E183A000B65598 /* Pax.xcdatamodeld */,
 			);
 			path = Pax;
 			sourceTree = "<group>";
@@ -261,7 +258,6 @@
 			files = (
 				CCC3BBF920E183A000B65598 /* ViewController.swift in Sources */,
 				CCC3BBF720E183A000B65598 /* AppDelegate.swift in Sources */,
-				CCC3BBFF20E183A000B65598 /* Pax.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,19 +584,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		CCC3BBFD20E183A000B65598 /* Pax.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				CCC3BBFE20E183A000B65598 /* Pax.xcdatamodel */,
-			);
-			currentVersion = CCC3BBFE20E183A000B65598 /* Pax.xcdatamodel */;
-			path = Pax.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = CCC3BBEB20E183A000B65598 /* Project object */;
 }
