@@ -243,6 +243,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Anxious" width="1080" height="1920"/>
         <image name="Circle 1" width="800" height="800"/>
         <image name="Circle 2" width="800" height="800"/>
         <image name="Circle 3" width="800" height="800"/>
@@ -252,5 +253,9 @@
         <image name="Circle 7" width="800" height="800"/>
         <image name="Circle 8" width="800" height="800"/>
         <image name="Circle 9" width="800" height="800"/>
+        <image name="Happy" width="1080" height="1920"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="hkb-cw-gbz"/>
+    </inferredMetricsTieBreakers>
 </document>
