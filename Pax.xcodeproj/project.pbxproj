@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CCAF2FBF20E2A297002AA7F7 /* natureFactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAF2FBE20E2A297002AA7F7 /* natureFactController.swift */; };
+		CCAF2FC120E2D3B2002AA7F7 /* YogaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAF2FC020E2D3B2002AA7F7 /* YogaViewController.swift */; };
 		CCC3BBF720E183A000B65598 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC3BBF620E183A000B65598 /* AppDelegate.swift */; };
 		CCC3BBF920E183A000B65598 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC3BBF820E183A000B65598 /* ViewController.swift */; };
 		CCC3BBFC20E183A000B65598 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCC3BBFA20E183A000B65598 /* Main.storyboard */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CCAF2FBE20E2A297002AA7F7 /* natureFactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = natureFactController.swift; sourceTree = "<group>"; };
+		CCAF2FC020E2D3B2002AA7F7 /* YogaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YogaViewController.swift; sourceTree = "<group>"; };
 		CCC3BBF320E183A000B65598 /* Pax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pax.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC3BBF620E183A000B65598 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCC3BBF820E183A000B65598 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +106,8 @@
 				CCC3BBF620E183A000B65598 /* AppDelegate.swift */,
 				CCC3BBF820E183A000B65598 /* ViewController.swift */,
 				CCC3BBFA20E183A000B65598 /* Main.storyboard */,
+				CCAF2FC020E2D3B2002AA7F7 /* YogaViewController.swift */,
+				CCAF2FBE20E2A297002AA7F7 /* natureFactController.swift */,
 				CCC3BC0020E183A000B65598 /* Assets.xcassets */,
 				CCC3BC0220E183A000B65598 /* LaunchScreen.storyboard */,
 				CCC3BC0520E183A000B65598 /* Info.plist */,
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCC3BBF920E183A000B65598 /* ViewController.swift in Sources */,
+				CCAF2FC120E2D3B2002AA7F7 /* YogaViewController.swift in Sources */,
 				CCC3BBF720E183A000B65598 /* AppDelegate.swift in Sources */,
+				CCAF2FBF20E2A297002AA7F7 /* natureFactController.swift in Sources */,
 				CCC3BBFF20E183A000B65598 /* Pax.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
