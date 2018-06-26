@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC45362720E2A73800256AF3 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC45362620E2A73800256AF3 /* SecondViewController.swift */; };
+		CC45362920E2AA1400256AF3 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC45362820E2AA1400256AF3 /* ThirdViewController.swift */; };
+		CC45362B20E2AA4800256AF3 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC45362A20E2AA4800256AF3 /* FourthViewController.swift */; };
+		CC45362D20E2AA6000256AF3 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC45362C20E2AA6000256AF3 /* FifthViewController.swift */; };
 		CCC3BBF720E183A000B65598 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC3BBF620E183A000B65598 /* AppDelegate.swift */; };
 		CCC3BBF920E183A000B65598 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC3BBF820E183A000B65598 /* ViewController.swift */; };
 		CCC3BBFC20E183A000B65598 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCC3BBFA20E183A000B65598 /* Main.storyboard */; };
@@ -35,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC45362620E2A73800256AF3 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		CC45362820E2AA1400256AF3 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		CC45362A20E2AA4800256AF3 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		CC45362C20E2AA6000256AF3 /* FifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
 		CCC3BBF320E183A000B65598 /* Pax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pax.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC3BBF620E183A000B65598 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCC3BBF820E183A000B65598 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,8 +108,12 @@
 			isa = PBXGroup;
 			children = (
 				CCC3BBF620E183A000B65598 /* AppDelegate.swift */,
-				CCC3BBF820E183A000B65598 /* ViewController.swift */,
 				CCC3BBFA20E183A000B65598 /* Main.storyboard */,
+				CCC3BBF820E183A000B65598 /* ViewController.swift */,
+				CC45362620E2A73800256AF3 /* SecondViewController.swift */,
+				CC45362C20E2AA6000256AF3 /* FifthViewController.swift */,
+				CC45362A20E2AA4800256AF3 /* FourthViewController.swift */,
+				CC45362820E2AA1400256AF3 /* ThirdViewController.swift */,
 				CCC3BC0020E183A000B65598 /* Assets.xcassets */,
 				CCC3BC0220E183A000B65598 /* LaunchScreen.storyboard */,
 				CCC3BC0520E183A000B65598 /* Info.plist */,
@@ -259,9 +271,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC45362B20E2AA4800256AF3 /* FourthViewController.swift in Sources */,
+				CC45362720E2A73800256AF3 /* SecondViewController.swift in Sources */,
 				CCC3BBF920E183A000B65598 /* ViewController.swift in Sources */,
+				CC45362920E2AA1400256AF3 /* ThirdViewController.swift in Sources */,
 				CCC3BBF720E183A000B65598 /* AppDelegate.swift in Sources */,
 				CCC3BBFF20E183A000B65598 /* Pax.xcdatamodeld in Sources */,
+				CC45362D20E2AA6000256AF3 /* FifthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
