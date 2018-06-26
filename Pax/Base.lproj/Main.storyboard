@@ -26,4 +26,12 @@
             <point key="canvasLocation" x="32.799999999999997" y="31.934032983508249"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="CALL" width="311" height="192"/>
+        <image name="MEDITATION" width="575" height="241"/>
+        <image name="MUSIC" width="308" height="265"/>
+        <image name="OLLIE" width="328" height="298"/>
+        <image name="STRESS" width="331" height="417"/>
+        <image name="TIPS" width="591" height="301"/>
+    </resources>
 </document>
