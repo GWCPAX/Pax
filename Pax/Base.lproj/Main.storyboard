@@ -10,97 +10,6 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Fourth View Controller-->
-        <scene sceneID="UG1-6o-gYo">
-            <objects>
-                <viewController id="ew8-bM-u2Q" customClass="FourthViewController" customModule="Pax" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Jwk-v5-Qch">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Happy" translatesAutoresizingMaskIntoConstraints="NO" id="hL8-Aj-O5P">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap for the Playlist" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DHA-bu-zfd">
-                                <rect key="frame" x="59.5" y="315.5" width="256" height="36"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vho-C2-eMw">
-                                <rect key="frame" x="141" y="606" width="93" height="41"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
-                                <state key="normal" title="Go Back">
-                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="hkb-cw-gbz"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="hL8-Aj-O5P" firstAttribute="leading" secondItem="dE6-f6-xzd" secondAttribute="leading" id="2kC-cx-XTz"/>
-                            <constraint firstItem="dE6-f6-xzd" firstAttribute="bottom" secondItem="vho-C2-eMw" secondAttribute="bottom" constant="20" id="5iJ-eQ-64d"/>
-                            <constraint firstItem="DHA-bu-zfd" firstAttribute="centerX" secondItem="Jwk-v5-Qch" secondAttribute="centerX" id="IAz-tT-yYH"/>
-                            <constraint firstItem="DHA-bu-zfd" firstAttribute="centerY" secondItem="Jwk-v5-Qch" secondAttribute="centerY" id="W8I-Pw-j5P"/>
-                            <constraint firstItem="hL8-Aj-O5P" firstAttribute="bottom" secondItem="dE6-f6-xzd" secondAttribute="bottom" id="dc1-Sj-pIh"/>
-                            <constraint firstItem="hL8-Aj-O5P" firstAttribute="top" secondItem="Jwk-v5-Qch" secondAttribute="top" id="eor-fa-SBa"/>
-                            <constraint firstItem="hL8-Aj-O5P" firstAttribute="trailing" secondItem="dE6-f6-xzd" secondAttribute="trailing" id="qBz-lb-7qd"/>
-                            <constraint firstItem="vho-C2-eMw" firstAttribute="centerX" secondItem="Jwk-v5-Qch" secondAttribute="centerX" id="vg3-VM-fZ4"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="dE6-f6-xzd"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="E0F-y0-ufv" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-767.20000000000005" y="28.335832083958024"/>
-        </scene>
-        <!--Fifth View Controller-->
-        <scene sceneID="bDj-AP-Jum">
-            <objects>
-                <viewController id="nWN-EE-4hi" customClass="FifthViewController" customModule="Pax" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="XtV-qT-5qG">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Anxious" translatesAutoresizingMaskIntoConstraints="NO" id="lq6-aD-sVg">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap for the Playlist" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RKo-Ko-vMI">
-                                <rect key="frame" x="59.5" y="315.5" width="256" height="36"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o23-Ka-iCQ">
-                                <rect key="frame" x="141" y="606" width="93" height="41"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
-                                <state key="normal" title="Go Back">
-                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="K8s-Wd-JLk"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="o23-Ka-iCQ" firstAttribute="centerX" secondItem="XtV-qT-5qG" secondAttribute="centerX" id="BFs-tX-Fi6"/>
-                            <constraint firstItem="RKo-Ko-vMI" firstAttribute="centerX" secondItem="XtV-qT-5qG" secondAttribute="centerX" id="Fx1-TP-NqA"/>
-                            <constraint firstItem="lq6-aD-sVg" firstAttribute="leading" secondItem="da8-Wd-sbe" secondAttribute="leading" id="GG8-se-Oal"/>
-                            <constraint firstItem="lq6-aD-sVg" firstAttribute="trailing" secondItem="da8-Wd-sbe" secondAttribute="trailing" id="KQI-xk-3Us"/>
-                            <constraint firstItem="lq6-aD-sVg" firstAttribute="top" secondItem="XtV-qT-5qG" secondAttribute="top" id="P0B-E0-lRX"/>
-                            <constraint firstItem="da8-Wd-sbe" firstAttribute="bottom" secondItem="o23-Ka-iCQ" secondAttribute="bottom" constant="20" id="WjR-EF-Nau"/>
-                            <constraint firstItem="RKo-Ko-vMI" firstAttribute="centerY" secondItem="XtV-qT-5qG" secondAttribute="centerY" id="ehK-Q5-rrJ"/>
-                            <constraint firstItem="lq6-aD-sVg" firstAttribute="bottom" secondItem="da8-Wd-sbe" secondAttribute="bottom" id="j7X-f7-QKL"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="da8-Wd-sbe"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="0gN-pc-XnL" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="79.200000000000003" y="-683.20839580209895"/>
-        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -117,11 +26,4 @@
             <point key="canvasLocation" x="32.799999999999997" y="31.934032983508249"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="Anxious" width="1080" height="1920"/>
-        <image name="Happy" width="1080" height="1920"/>
-    </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="K8s-Wd-JLk"/>
-    </inferredMetricsTieBreakers>
 </document>
