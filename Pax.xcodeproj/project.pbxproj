@@ -12,6 +12,7 @@
 		CC45362B20E2AA4800256AF3 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC45362A20E2AA4800256AF3 /* FourthViewController.swift */; };
 		CC45362D20E2AA6000256AF3 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC45362C20E2AA6000256AF3 /* FifthViewController.swift */; };
 		CC45362F20E3F19C00256AF3 /* BreatheViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC45362E20E3F19C00256AF3 /* BreatheViewController.swift */; };
+		CC9CBC8520E414FF00E510DC /* FocusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9CBC8420E414FF00E510DC /* FocusViewController.swift */; };
 		CCC3BBF720E183A000B65598 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC3BBF620E183A000B65598 /* AppDelegate.swift */; };
 		CCC3BBF920E183A000B65598 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC3BBF820E183A000B65598 /* ViewController.swift */; };
 		CCC3BBFC20E183A000B65598 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCC3BBFA20E183A000B65598 /* Main.storyboard */; };
@@ -45,6 +46,7 @@
 		CC45362A20E2AA4800256AF3 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 		CC45362C20E2AA6000256AF3 /* FifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
 		CC45362E20E3F19C00256AF3 /* BreatheViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreatheViewController.swift; sourceTree = "<group>"; };
+		CC9CBC8420E414FF00E510DC /* FocusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusViewController.swift; sourceTree = "<group>"; };
 		CCC3BBF320E183A000B65598 /* Pax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pax.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC3BBF620E183A000B65598 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCC3BBF820E183A000B65598 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 			children = (
 				CCC3BBF620E183A000B65598 /* AppDelegate.swift */,
 				CCC3BBFA20E183A000B65598 /* Main.storyboard */,
+				CC9CBC8420E414FF00E510DC /* FocusViewController.swift */,
 				CC45362E20E3F19C00256AF3 /* BreatheViewController.swift */,
 				CCC3BBF820E183A000B65598 /* ViewController.swift */,
 				CC45362620E2A73800256AF3 /* SecondViewController.swift */,
@@ -281,6 +284,7 @@
 				CC45362920E2AA1400256AF3 /* ThirdViewController.swift in Sources */,
 				CCC3BBF720E183A000B65598 /* AppDelegate.swift in Sources */,
 				CCC3BBFF20E183A000B65598 /* Pax.xcdatamodeld in Sources */,
+				CC9CBC8520E414FF00E510DC /* FocusViewController.swift in Sources */,
 				CC45362D20E2AA6000256AF3 /* FifthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
