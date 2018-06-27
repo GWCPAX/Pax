@@ -21,6 +21,10 @@
 		CCC3BC0420E183A000B65598 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCC3BC0220E183A000B65598 /* LaunchScreen.storyboard */; };
 		CCC3BC0F20E183A100B65598 /* PaxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC3BC0E20E183A100B65598 /* PaxTests.swift */; };
 		CCC3BC1A20E183A100B65598 /* PaxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC3BC1920E183A100B65598 /* PaxUITests.swift */; };
+		CCD24BDB20E43E9500A6B3FA /* natureFactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD24BDA20E43E9500A6B3FA /* natureFactController.swift */; };
+		CCD24BDD20E43EA500A6B3FA /* YogaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD24BDC20E43EA400A6B3FA /* YogaViewController.swift */; };
+		CCD24BDF20E448FF00A6B3FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD24BDE20E448FE00A6B3FA /* ViewController.swift */; };
+		CCD24BE120E4490B00A6B3FA /* aaaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD24BE020E4490B00A6B3FA /* aaaViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +65,10 @@
 		CCC3BC1520E183A100B65598 /* PaxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC3BC1920E183A100B65598 /* PaxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaxUITests.swift; sourceTree = "<group>"; };
 		CCC3BC1B20E183A100B65598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCD24BDA20E43E9500A6B3FA /* natureFactController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = natureFactController.swift; sourceTree = "<group>"; };
+		CCD24BDC20E43EA400A6B3FA /* YogaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YogaViewController.swift; sourceTree = "<group>"; };
+		CCD24BDE20E448FE00A6B3FA /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../../../Downloads/DeannaTest-Deanna/test/ViewController.swift"; sourceTree = "<group>"; };
+		CCD24BE020E4490B00A6B3FA /* aaaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = aaaViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,11 +123,15 @@
 				CCC3BBFA20E183A000B65598 /* Main.storyboard */,
 				CC9CBC8420E414FF00E510DC /* FocusViewController.swift */,
 				CC45362E20E3F19C00256AF3 /* BreatheViewController.swift */,
-				CCC3BBF820E183A000B65598 /* ViewController.swift */,
 				CC45362620E2A73800256AF3 /* SecondViewController.swift */,
+				CCD24BDC20E43EA400A6B3FA /* YogaViewController.swift */,
+				CCD24BDE20E448FE00A6B3FA /* ViewController.swift */,
+				CCD24BDA20E43E9500A6B3FA /* natureFactController.swift */,
 				CC45362C20E2AA6000256AF3 /* FifthViewController.swift */,
 				CC45362A20E2AA4800256AF3 /* FourthViewController.swift */,
 				CC45362820E2AA1400256AF3 /* ThirdViewController.swift */,
+				CCC3BBF820E183A000B65598 /* ViewController.swift */,
+				CCD24BE020E4490B00A6B3FA /* aaaViewController.swift */,
 				CCC3BC0020E183A000B65598 /* Assets.xcassets */,
 				CCC3BC0220E183A000B65598 /* LaunchScreen.storyboard */,
 				CCC3BC0520E183A000B65598 /* Info.plist */,
@@ -283,9 +295,13 @@
 				CCC3BBF920E183A000B65598 /* ViewController.swift in Sources */,
 				CC45362920E2AA1400256AF3 /* ThirdViewController.swift in Sources */,
 				CCC3BBF720E183A000B65598 /* AppDelegate.swift in Sources */,
+				CCD24BDF20E448FF00A6B3FA /* ViewController.swift in Sources */,
 				CCC3BBFF20E183A000B65598 /* Pax.xcdatamodeld in Sources */,
 				CC9CBC8520E414FF00E510DC /* FocusViewController.swift in Sources */,
+				CCD24BDB20E43E9500A6B3FA /* natureFactController.swift in Sources */,
 				CC45362D20E2AA6000256AF3 /* FifthViewController.swift in Sources */,
+				CCD24BDD20E43EA500A6B3FA /* YogaViewController.swift in Sources */,
+				CCD24BE120E4490B00A6B3FA /* aaaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,13 +475,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M7HNUSHB7W;
+				DEVELOPMENT_TEAM = QGZY27V438;
 				INFOPLIST_FILE = Pax/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = organization.Pax;
+				PRODUCT_BUNDLE_IDENTIFIER = organizationname.Pax;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -477,13 +493,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M7HNUSHB7W;
+				DEVELOPMENT_TEAM = QGZY27V438;
 				INFOPLIST_FILE = Pax/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = organization.Pax;
+				PRODUCT_BUNDLE_IDENTIFIER = organizationname.Pax;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
