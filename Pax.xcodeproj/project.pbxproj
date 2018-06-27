@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC7FADD320E3F12C00029254 /* FocusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7FADD220E3F12C00029254 /* FocusViewController.swift */; };
 		CCC3BBF720E183A000B65598 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC3BBF620E183A000B65598 /* AppDelegate.swift */; };
 		CCC3BBF920E183A000B65598 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC3BBF820E183A000B65598 /* ViewController.swift */; };
 		CCC3BBFC20E183A000B65598 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCC3BBFA20E183A000B65598 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC7FADD220E3F12C00029254 /* FocusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusViewController.swift; sourceTree = "<group>"; };
 		CCC3BBF320E183A000B65598 /* Pax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pax.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC3BBF620E183A000B65598 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCC3BBF820E183A000B65598 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				CCC3BBF620E183A000B65598 /* AppDelegate.swift */,
 				CCC3BBF820E183A000B65598 /* ViewController.swift */,
 				CCC3BBFA20E183A000B65598 /* Main.storyboard */,
+				CC7FADD220E3F12C00029254 /* FocusViewController.swift */,
 				CCC3BC0020E183A000B65598 /* Assets.xcassets */,
 				CCC3BC0220E183A000B65598 /* LaunchScreen.storyboard */,
 				CCC3BC0520E183A000B65598 /* Info.plist */,
@@ -262,6 +265,7 @@
 				CCC3BBF920E183A000B65598 /* ViewController.swift in Sources */,
 				CCC3BBF720E183A000B65598 /* AppDelegate.swift in Sources */,
 				CCC3BBFF20E183A000B65598 /* Pax.xcdatamodeld in Sources */,
+				CC7FADD320E3F12C00029254 /* FocusViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,13 +439,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M7HNUSHB7W;
+				DEVELOPMENT_TEAM = QGZY27V438;
 				INFOPLIST_FILE = Pax/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = organization.Pax;
+				PRODUCT_BUNDLE_IDENTIFIER = organize.Pax;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -453,13 +457,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M7HNUSHB7W;
+				DEVELOPMENT_TEAM = QGZY27V438;
 				INFOPLIST_FILE = Pax/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = organization.Pax;
+				PRODUCT_BUNDLE_IDENTIFIER = organize.Pax;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -23,8 +23,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var Circle2: UIImageView!
     @IBOutlet weak var Circle1: UIImageView!
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
 //        UIView.animate(withDuration: 2) {
 //            self.Breathe.alpha = 1
 //        }

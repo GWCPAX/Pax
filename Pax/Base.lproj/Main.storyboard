@@ -108,7 +108,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <state key="normal" title="Next"/>
                                 <connections>
-                                    <segue destination="474-db-CC1" kind="show" id="cfO-Kx-ayZ"/>
+                                    <segue destination="474-db-CC1" kind="show" id="p9p-7d-wMS"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -161,23 +161,200 @@
             </objects>
             <point key="canvasLocation" x="32.799999999999997" y="31.934032983508249"/>
         </scene>
-        <!--View Controller-->
+        <!--Focus View Controller-->
         <scene sceneID="9mO-g6-ADL">
             <objects>
-                <viewController id="474-db-CC1" sceneMemberID="viewController">
+                <viewController id="474-db-CC1" customClass="FocusViewController" customModule="Pax" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3U5-D2-GDi">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Focus" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oD6-IU-hu8">
+                                <rect key="frame" x="129" y="55" width="117" height="61"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="44"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Concentrate your mind and focus on these dots." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ROG-2b-T6z">
+                                <rect key="frame" x="67" y="147" width="240" height="87"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="87" id="B2N-4C-fpa"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Black Dot" translatesAutoresizingMaskIntoConstraints="NO" id="JPp-f4-Ygg">
+                                <rect key="frame" x="129" y="264" width="35" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="35" id="U49-4B-6Fb"/>
+                                    <constraint firstAttribute="height" constant="35" id="umN-nx-pp5"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Black Dot" translatesAutoresizingMaskIntoConstraints="NO" id="rgP-z9-9zZ">
+                                <rect key="frame" x="229" y="316" width="35" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="35" id="2Iv-3v-bI6"/>
+                                    <constraint firstAttribute="height" constant="35" id="IKh-gz-Fb6"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Black Dot" translatesAutoresizingMaskIntoConstraints="NO" id="IZn-6R-FCq">
+                                <rect key="frame" x="106" y="397" width="35" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="8qZ-Zw-UZS"/>
+                                    <constraint firstAttribute="width" constant="35" id="lzB-A3-j85"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Black Dot" translatesAutoresizingMaskIntoConstraints="NO" id="2i3-Nt-Y8K">
+                                <rect key="frame" x="170" y="343" width="35" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="EPE-EP-Uup"/>
+                                    <constraint firstAttribute="width" constant="35" id="W3E-Ga-BOr"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Black Dot" translatesAutoresizingMaskIntoConstraints="NO" id="ML1-sX-bHz">
+                                <rect key="frame" x="229" y="419" width="35" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="35" id="9Hy-Xn-cVD"/>
+                                    <constraint firstAttribute="height" constant="35" id="ujd-ap-ReE"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Black Dot" translatesAutoresizingMaskIntoConstraints="NO" id="Nuh-8L-Q8r">
+                                <rect key="frame" x="170" y="465" width="35" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="35" id="Kug-Zm-l8R"/>
+                                    <constraint firstAttribute="height" constant="35" id="bJe-kx-DNh"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Sw-n6-eJi">
+                                <rect key="frame" x="164" y="607" width="47" height="40"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <segue destination="oCX-it-hQh" kind="show" id="2BK-rX-QZW"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6ir-BN-Hiw" firstAttribute="trailing" secondItem="rgP-z9-9zZ" secondAttribute="trailing" constant="111" id="0Zu-K6-o29"/>
+                            <constraint firstItem="oD6-IU-hu8" firstAttribute="centerX" secondItem="3U5-D2-GDi" secondAttribute="centerX" id="4Lx-Hb-QBC"/>
+                            <constraint firstItem="rgP-z9-9zZ" firstAttribute="centerY" secondItem="3U5-D2-GDi" secondAttribute="centerY" id="6Z9-IV-Kk5"/>
+                            <constraint firstItem="1Sw-n6-eJi" firstAttribute="centerX" secondItem="3U5-D2-GDi" secondAttribute="centerX" id="70n-Sj-Ecx"/>
+                            <constraint firstItem="ROG-2b-T6z" firstAttribute="leading" secondItem="6ir-BN-Hiw" secondAttribute="leading" constant="67" id="7Nv-Qr-XjA"/>
+                            <constraint firstItem="IZn-6R-FCq" firstAttribute="top" secondItem="JPp-f4-Ygg" secondAttribute="bottom" constant="98" id="83y-Hb-hN1"/>
+                            <constraint firstItem="IZn-6R-FCq" firstAttribute="leading" secondItem="6ir-BN-Hiw" secondAttribute="leading" constant="106" id="9fj-Fx-bri"/>
+                            <constraint firstItem="rgP-z9-9zZ" firstAttribute="leading" secondItem="2i3-Nt-Y8K" secondAttribute="trailing" constant="24" id="Euw-CB-lbf"/>
+                            <constraint firstItem="rgP-z9-9zZ" firstAttribute="leading" secondItem="ML1-sX-bHz" secondAttribute="leading" id="HoL-2G-vht"/>
+                            <constraint firstItem="JPp-f4-Ygg" firstAttribute="top" secondItem="3U5-D2-GDi" secondAttribute="top" constant="264" id="OXP-Lt-J60"/>
+                            <constraint firstItem="1Sw-n6-eJi" firstAttribute="top" secondItem="Nuh-8L-Q8r" secondAttribute="bottom" constant="107" id="Tzn-ty-sMy"/>
+                            <constraint firstItem="JPp-f4-Ygg" firstAttribute="top" secondItem="ROG-2b-T6z" secondAttribute="bottom" constant="30" id="U0S-aX-RIV"/>
+                            <constraint firstAttribute="bottom" secondItem="2i3-Nt-Y8K" secondAttribute="bottom" constant="289" id="XMu-ew-kYW"/>
+                            <constraint firstItem="Nuh-8L-Q8r" firstAttribute="top" secondItem="2i3-Nt-Y8K" secondAttribute="bottom" constant="87" id="ZTl-8G-moS"/>
+                            <constraint firstItem="6ir-BN-Hiw" firstAttribute="bottom" secondItem="1Sw-n6-eJi" secondAttribute="bottom" constant="20" id="bXg-WD-8mW"/>
+                            <constraint firstItem="ROG-2b-T6z" firstAttribute="centerX" secondItem="3U5-D2-GDi" secondAttribute="centerX" id="ijd-2u-sHj"/>
+                            <constraint firstItem="JPp-f4-Ygg" firstAttribute="leading" secondItem="6ir-BN-Hiw" secondAttribute="leading" constant="129" id="loT-aH-N7u"/>
+                            <constraint firstItem="ML1-sX-bHz" firstAttribute="top" secondItem="rgP-z9-9zZ" secondAttribute="bottom" constant="68" id="pHW-uO-kw2"/>
+                            <constraint firstItem="ROG-2b-T6z" firstAttribute="top" secondItem="oD6-IU-hu8" secondAttribute="bottom" constant="31" id="qmr-1h-8ow"/>
+                            <constraint firstItem="JPp-f4-Ygg" firstAttribute="leading" secondItem="oD6-IU-hu8" secondAttribute="leading" id="rWz-Kn-T3p"/>
+                            <constraint firstItem="ROG-2b-T6z" firstAttribute="centerX" secondItem="Nuh-8L-Q8r" secondAttribute="centerX" id="uiT-le-FFZ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6ir-BN-Hiw"/>
                     </view>
+                    <connections>
+                        <outlet property="Dot1" destination="JPp-f4-Ygg" id="uzS-uY-DhG"/>
+                        <outlet property="Dot2" destination="rgP-z9-9zZ" id="uYo-dE-CEf"/>
+                        <outlet property="Dot3" destination="2i3-Nt-Y8K" id="9gb-WW-y9o"/>
+                        <outlet property="Dot4" destination="IZn-6R-FCq" id="9lP-gb-UtQ"/>
+                        <outlet property="Dot5" destination="ML1-sX-bHz" id="vUG-6E-ybS"/>
+                        <outlet property="Dot6" destination="Nuh-8L-Q8r" id="AIu-Z3-1bT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0e6-Ue-ZNG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="790" y="32"/>
+            <point key="canvasLocation" x="789.60000000000002" y="31.934032983508249"/>
+        </scene>
+        <!--Call View Controller-->
+        <scene sceneID="Guo-NX-Q8E">
+            <objects>
+                <viewController id="oCX-it-hQh" customClass="CallViewController" customModule="Pax" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xjT-qg-toF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Repeat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r0L-y8-Unu">
+                                <rect key="frame" x="117" y="48" width="141" height="61"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="61" id="V3f-Lp-9XN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="44"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" text="If necessary, go back to any of the other pages to calm yourself." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="bee-bA-ujd">
+                                <rect key="frame" x="67" y="141" width="240" height="87"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="87" id="qsI-qs-xIc"/>
+                                    <constraint firstAttribute="width" constant="240" id="rc7-1g-SZw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e2C-mJ-Rhn">
+                                <rect key="frame" x="109.5" y="194" width="156" height="73"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="73" id="Dyt-To-Atx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="44"/>
+                                <state key="normal" title="Breathe"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="9R2-pg-LSf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GVG-bu-5Rg">
+                                <rect key="frame" x="129" y="275" width="117" height="73"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="73" id="fpc-g6-MGZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="44"/>
+                                <state key="normal" title="Focus"/>
+                                <connections>
+                                    <segue destination="474-db-CC1" kind="show" id="98z-5q-TQz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="01H-uV-F1i">
+                                <rect key="frame" x="126" y="484" width="123" height="73"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="73" id="d7G-o7-Pcb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="44"/>
+                                <state key="normal" title="Home"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="GVG-bu-5Rg" firstAttribute="top" secondItem="e2C-mJ-Rhn" secondAttribute="bottom" constant="8" id="CTt-Wt-KDV"/>
+                            <constraint firstItem="r0L-y8-Unu" firstAttribute="top" secondItem="HnV-xi-Pd3" secondAttribute="top" constant="28" id="EPI-sY-QcE"/>
+                            <constraint firstItem="bee-bA-ujd" firstAttribute="centerX" secondItem="xjT-qg-toF" secondAttribute="centerX" id="MXs-0G-Zc1"/>
+                            <constraint firstItem="bee-bA-ujd" firstAttribute="top" secondItem="HnV-xi-Pd3" secondAttribute="top" constant="79" id="Rpf-20-JIO"/>
+                            <constraint firstItem="01H-uV-F1i" firstAttribute="centerX" secondItem="xjT-qg-toF" secondAttribute="centerX" id="Tlh-Gv-CpL"/>
+                            <constraint firstItem="e2C-mJ-Rhn" firstAttribute="top" secondItem="bee-bA-ujd" secondAttribute="bottom" constant="8" id="W77-qY-zMr"/>
+                            <constraint firstItem="GVG-bu-5Rg" firstAttribute="centerX" secondItem="xjT-qg-toF" secondAttribute="centerX" id="bGf-Ne-DcR"/>
+                            <constraint firstItem="e2C-mJ-Rhn" firstAttribute="centerX" secondItem="xjT-qg-toF" secondAttribute="centerX" id="gSe-Tv-sLa"/>
+                            <constraint firstItem="r0L-y8-Unu" firstAttribute="centerX" secondItem="xjT-qg-toF" secondAttribute="centerX" id="tff-SH-qNP"/>
+                            <constraint firstItem="01H-uV-F1i" firstAttribute="top" secondItem="GVG-bu-5Rg" secondAttribute="bottom" constant="136" id="x2t-VG-AAz"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="HnV-xi-Pd3"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p5l-ul-6QF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1640.8" y="31.934032983508249"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Black Dot" width="2000" height="2000"/>
         <image name="Circle 1" width="800" height="800"/>
         <image name="Circle 2" width="800" height="800"/>
         <image name="Circle 3" width="800" height="800"/>
@@ -188,4 +365,7 @@
         <image name="Circle 8" width="800" height="800"/>
         <image name="Circle 9" width="800" height="800"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="p9p-7d-wMS"/>
+    </inferredMetricsTieBreakers>
 </document>
