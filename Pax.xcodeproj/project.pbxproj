@@ -12,6 +12,7 @@
 		CC45362B20E2AA4800256AF3 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC45362A20E2AA4800256AF3 /* FourthViewController.swift */; };
 		CC45362D20E2AA6000256AF3 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC45362C20E2AA6000256AF3 /* FifthViewController.swift */; };
 		CC45362F20E3F19C00256AF3 /* BreatheViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC45362E20E3F19C00256AF3 /* BreatheViewController.swift */; };
+		CC4FABB820E580B500B79370 /* CallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4FABB720E580B500B79370 /* CallViewController.swift */; };
 		CC9CBC8520E414FF00E510DC /* FocusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9CBC8420E414FF00E510DC /* FocusViewController.swift */; };
 		CCC3BBF720E183A000B65598 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC3BBF620E183A000B65598 /* AppDelegate.swift */; };
 		CCC3BBF920E183A000B65598 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC3BBF820E183A000B65598 /* ViewController.swift */; };
@@ -50,6 +51,7 @@
 		CC45362A20E2AA4800256AF3 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 		CC45362C20E2AA6000256AF3 /* FifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
 		CC45362E20E3F19C00256AF3 /* BreatheViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreatheViewController.swift; sourceTree = "<group>"; };
+		CC4FABB720E580B500B79370 /* CallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallViewController.swift; sourceTree = "<group>"; };
 		CC9CBC8420E414FF00E510DC /* FocusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusViewController.swift; sourceTree = "<group>"; };
 		CCC3BBF320E183A000B65598 /* Pax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pax.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC3BBF620E183A000B65598 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 			children = (
 				CCC3BBF620E183A000B65598 /* AppDelegate.swift */,
 				CCC3BBFA20E183A000B65598 /* Main.storyboard */,
+				CC4FABB720E580B500B79370 /* CallViewController.swift */,
 				CCD24BE620E549F900A6B3FA /* ParkViewController.swift */,
 				CC9CBC8420E414FF00E510DC /* FocusViewController.swift */,
 				CCD24BE420E5485D00A6B3FA /* CircleViewController.swift */,
@@ -295,6 +298,7 @@
 				CC45362720E2A73800256AF3 /* SecondViewController.swift in Sources */,
 				CCC3BBF920E183A000B65598 /* ViewController.swift in Sources */,
 				CCD24BE720E549F900A6B3FA /* ParkViewController.swift in Sources */,
+				CC4FABB820E580B500B79370 /* CallViewController.swift in Sources */,
 				CC45362920E2AA1400256AF3 /* ThirdViewController.swift in Sources */,
 				CCC3BBF720E183A000B65598 /* AppDelegate.swift in Sources */,
 				CCC3BBFF20E183A000B65598 /* Pax.xcdatamodeld in Sources */,
@@ -475,13 +479,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QGZY27V438;
+				DEVELOPMENT_TEAM = M7HNUSHB7W;
 				INFOPLIST_FILE = Pax/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = organizationname.Pax;
+				PRODUCT_BUNDLE_IDENTIFIER = pax.Pax;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -493,13 +497,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QGZY27V438;
+				DEVELOPMENT_TEAM = M7HNUSHB7W;
 				INFOPLIST_FILE = Pax/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = organizationname.Pax;
+				PRODUCT_BUNDLE_IDENTIFIER = pax.Pax;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
