@@ -809,7 +809,7 @@
                                 </constraints>
                                 <state key="normal" title="Stress Relief" image="STRESS"/>
                                 <connections>
-                                    <segue destination="1su-5d-VzO" kind="show" id="asI-aP-R0h"/>
+                                    <segue destination="Mpw-iu-Zc3" kind="show" id="F6u-u5-Gwn"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rMu-Pi-cLf">
@@ -856,99 +856,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hsj-AW-oyg" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2298.5507246376815" y="542.11956521739137"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="eYL-6e-eQJ">
-            <objects>
-                <viewController id="1su-5d-VzO" customClass="ViewController" customModule="Pax" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Q5d-DD-n4w">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hr6-TY-F5j">
-                                <rect key="frame" x="166" y="394" width="0.0" height="0.0"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yfz-zG-zCU">
-                                <rect key="frame" x="87" y="224" width="241" height="229"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="229" id="5VU-IV-MXb"/>
-                                    <constraint firstAttribute="height" constant="229" id="bgb-Lu-nq6"/>
-                                    <constraint firstAttribute="width" constant="241" id="qt7-tR-XpA"/>
-                                </constraints>
-                                <state key="normal" image="buttons_PNG140"/>
-                                <connections>
-                                    <action selector="factOfTheDay:" destination="SM5-QP-72g" eventType="touchUpInside" id="tlk-ZJ-Zxs"/>
-                                    <segue destination="Mpw-iu-Zc3" kind="show" id="JmP-TU-DnP"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="02D-Eh-4y1">
-                                <rect key="frame" x="119" y="289" width="177" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="177" id="1xa-b3-XTR"/>
-                                    <constraint firstAttribute="height" constant="21" id="rhW-8i-q4B"/>
-                                </constraints>
-                                <attributedString key="attributedText">
-                                    <fragment content="Find your stress reliever ">
-                                        <attributes>
-                                            <font key="NSFont" size="17" name="Optima-Regular"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2kS-6q-6LT">
-                                <rect key="frame" x="92" y="82" width="230" height="32.333333333333343"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="32.329999999999998" id="fHC-Kr-W5E"/>
-                                    <constraint firstAttribute="width" constant="230" id="q7Z-zC-6Cj"/>
-                                </constraints>
-                                <attributedString key="attributedText">
-                                    <fragment content="Good Bye Stress">
-                                        <attributes>
-                                            <font key="NSFont" size="27" name="Optima-Regular"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F2X-U3-cpT">
-                                <rect key="frame" x="151.66666666666666" y="680" width="110.99999999999997" height="64"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="64" id="VMa-b5-30M"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="43"/>
-                                <state key="normal" title="Home"/>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" red="0.89812994830000004" green="0.84407998989999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="2kS-6q-6LT" firstAttribute="centerX" secondItem="Q5d-DD-n4w" secondAttribute="centerX" id="DSL-2k-YCT"/>
-                            <constraint firstItem="yfz-zG-zCU" firstAttribute="top" secondItem="2kS-6q-6LT" secondAttribute="bottom" constant="113.33" id="DkX-Dl-iMt"/>
-                            <constraint firstAttribute="bottom" secondItem="F2X-U3-cpT" secondAttribute="bottom" constant="-8" id="Mdk-TN-ePr"/>
-                            <constraint firstItem="yfz-zG-zCU" firstAttribute="centerX" secondItem="Q5d-DD-n4w" secondAttribute="centerX" id="NL1-SY-guz"/>
-                            <constraint firstItem="yfz-zG-zCU" firstAttribute="top" secondItem="2kS-6q-6LT" secondAttribute="bottom" constant="109.67" id="P3O-dh-cT0"/>
-                            <constraint firstItem="ayL-Hx-clg" firstAttribute="trailing" secondItem="F2X-U3-cpT" secondAttribute="trailing" constant="151.33000000000001" id="R8c-Oi-fWr"/>
-                            <constraint firstItem="02D-Eh-4y1" firstAttribute="top" secondItem="2kS-6q-6LT" secondAttribute="bottom" constant="174.66999999999999" id="eJq-jP-GIG"/>
-                            <constraint firstItem="2kS-6q-6LT" firstAttribute="top" secondItem="ayL-Hx-clg" secondAttribute="top" constant="65.5" id="ev0-Ui-Inh"/>
-                            <constraint firstItem="ayL-Hx-clg" firstAttribute="trailing" secondItem="2kS-6q-6LT" secondAttribute="trailing" constant="92" id="g1b-aK-5ea"/>
-                            <constraint firstItem="2kS-6q-6LT" firstAttribute="leading" secondItem="ayL-Hx-clg" secondAttribute="leading" constant="92" id="gmS-y7-JAc"/>
-                            <constraint firstItem="02D-Eh-4y1" firstAttribute="centerX" secondItem="Q5d-DD-n4w" secondAttribute="centerX" id="o9i-6Z-1BM"/>
-                            <constraint firstItem="yfz-zG-zCU" firstAttribute="centerX" secondItem="Q5d-DD-n4w" secondAttribute="centerX" id="pfR-mJ-6lg"/>
-                            <constraint firstItem="F2X-U3-cpT" firstAttribute="centerX" secondItem="Q5d-DD-n4w" secondAttribute="centerX" id="phB-xn-i4o"/>
-                            <constraint firstItem="2kS-6q-6LT" firstAttribute="top" secondItem="ayL-Hx-clg" secondAttribute="top" constant="62" id="qLv-mV-fAi"/>
-                            <constraint firstItem="F2X-U3-cpT" firstAttribute="leading" secondItem="ayL-Hx-clg" secondAttribute="leading" constant="151.66999999999999" id="zL0-es-IEl"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="ayL-Hx-clg"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="YbG-8E-Qo0" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3440.579710144928" y="541.304347826087"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="c5L-XN-epZ">
@@ -1050,7 +957,7 @@
                                     <color key="titleColor" red="0.5627098801" green="0.10158553200000001" blue="0.84664426810000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="1su-5d-VzO" kind="show" id="wGB-BK-vAd"/>
+                                    <segue destination="Umh-xZ-WmY" kind="show" id="eHT-4a-Y0z"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1097,7 +1004,7 @@ instructive yoga video </string>
                                     <color key="titleColor" red="0.5627098801" green="0.10158553200000001" blue="0.84664426810000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="1su-5d-VzO" kind="show" id="UaX-OQ-6eT"/>
+                                    <segue destination="Mpw-iu-Zc3" kind="show" id="qJY-9d-vdX"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Yoga" translatesAutoresizingMaskIntoConstraints="NO" id="co6-rQ-8eX">
@@ -1153,7 +1060,7 @@ instructive yoga video </string>
                                     <color key="titleColor" red="0.5627098801" green="0.10158553200000001" blue="0.84664426810000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="1su-5d-VzO" kind="show" id="wpx-eH-whn"/>
+                                    <segue destination="Mpw-iu-Zc3" kind="show" id="mpi-eO-8WG"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9yS-s2-Fsr">
@@ -1278,7 +1185,7 @@ instructive yoga video </string>
                                     <color key="titleColor" red="0.5627098801" green="0.10158553200000001" blue="0.84664426810000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="1su-5d-VzO" kind="show" id="Gin-59-ZVn"/>
+                                    <segue destination="Mpw-iu-Zc3" kind="show" id="jxv-nm-gnk"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1505,7 +1412,11 @@ instructive yoga video </string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OvX-cT-UlH">
-                                <rect key="frame" x="0.0" y="0.0" width="80" height="86"/>
+                                <rect key="frame" x="20" y="20" width="80" height="86"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="86" id="APy-X1-0FK"/>
+                                    <constraint firstAttribute="width" constant="80" id="O4A-gb-bGa"/>
+                                </constraints>
                                 <state key="normal" title="HOME" image="Home-Button">
                                     <color key="titleColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -1519,22 +1430,20 @@ instructive yoga video </string>
                             <constraint firstItem="Ycm-Ti-kAv" firstAttribute="top" secondItem="phO-2T-1WP" secondAttribute="bottom" constant="20" id="0cx-Ri-q38"/>
                             <constraint firstItem="cU8-8v-Eay" firstAttribute="centerX" secondItem="n1d-z4-CxT" secondAttribute="centerX" id="9At-zY-fU4"/>
                             <constraint firstItem="0v3-Ox-Ehc" firstAttribute="top" secondItem="5Ea-ce-ydH" secondAttribute="bottom" constant="30" id="Ebr-Sa-5fI"/>
-                            <constraint firstItem="eTx-X7-Saa" firstAttribute="bottom" secondItem="OvX-cT-UlH" secondAttribute="bottom" constant="650" id="HRY-jt-kSR"/>
+                            <constraint firstItem="OvX-cT-UlH" firstAttribute="leading" secondItem="eTx-X7-Saa" secondAttribute="leading" constant="20" id="G9H-vD-0jJ"/>
                             <constraint firstItem="ySF-DE-vhA" firstAttribute="centerX" secondItem="n1d-z4-CxT" secondAttribute="centerX" id="JHv-zu-OZW"/>
                             <constraint firstItem="cU8-8v-Eay" firstAttribute="top" secondItem="9FY-sT-wiv" secondAttribute="bottom" constant="24.5" id="KqR-I6-d8P"/>
                             <constraint firstItem="y8f-B6-NDz" firstAttribute="top" secondItem="phO-2T-1WP" secondAttribute="bottom" constant="46" id="MQQ-4j-k3f"/>
                             <constraint firstItem="j8y-77-Oir" firstAttribute="top" secondItem="n6H-tD-i2Q" secondAttribute="bottom" constant="24" id="ROE-Uj-8aP"/>
                             <constraint firstItem="phO-2T-1WP" firstAttribute="centerX" secondItem="n1d-z4-CxT" secondAttribute="centerX" id="RZH-9Z-eXd"/>
                             <constraint firstItem="5Ea-ce-ydH" firstAttribute="top" secondItem="ySF-DE-vhA" secondAttribute="bottom" constant="45" id="SXr-2I-9zP"/>
-                            <constraint firstItem="9FY-sT-wiv" firstAttribute="leading" secondItem="OvX-cT-UlH" secondAttribute="trailing" constant="75" id="U5T-cx-3he"/>
                             <constraint firstItem="j8y-77-Oir" firstAttribute="centerX" secondItem="n1d-z4-CxT" secondAttribute="centerX" id="Z7c-2w-bze"/>
                             <constraint firstItem="Ycm-Ti-kAv" firstAttribute="centerX" secondItem="n1d-z4-CxT" secondAttribute="centerX" id="aj4-aX-hfR"/>
-                            <constraint firstItem="OvX-cT-UlH" firstAttribute="top" secondItem="n1d-z4-CxT" secondAttribute="top" id="bLW-qe-W89"/>
                             <constraint firstItem="OAr-Qb-ae6" firstAttribute="top" secondItem="ySF-DE-vhA" secondAttribute="bottom" constant="21" id="cwc-3w-TEV"/>
-                            <constraint firstItem="OvX-cT-UlH" firstAttribute="leading" secondItem="n1d-z4-CxT" secondAttribute="leading" id="e5I-eh-Lh9"/>
                             <constraint firstItem="ySF-DE-vhA" firstAttribute="top" secondItem="n6H-tD-i2Q" secondAttribute="bottom" constant="49" id="e5U-UB-4Jt"/>
                             <constraint firstItem="9FY-sT-wiv" firstAttribute="centerX" secondItem="n1d-z4-CxT" secondAttribute="centerX" id="ggr-38-9VE"/>
                             <constraint firstItem="n6H-tD-i2Q" firstAttribute="top" secondItem="9FY-sT-wiv" secondAttribute="bottom" constant="43.5" id="gzV-n2-w96"/>
+                            <constraint firstItem="OvX-cT-UlH" firstAttribute="top" secondItem="eTx-X7-Saa" secondAttribute="top" id="hfQ-zm-Wvd"/>
                             <constraint firstItem="5Ea-ce-ydH" firstAttribute="centerX" secondItem="n1d-z4-CxT" secondAttribute="centerX" id="k9w-b6-2ez"/>
                             <constraint firstItem="y8f-B6-NDz" firstAttribute="centerX" secondItem="n1d-z4-CxT" secondAttribute="centerX" id="kIh-5L-H1s"/>
                             <constraint firstItem="0v3-Ox-Ehc" firstAttribute="centerX" secondItem="n1d-z4-CxT" secondAttribute="centerX" id="qpv-qm-DoI"/>
@@ -1667,11 +1576,7 @@ To get Ollie's help, press the button labeled "Ollie" on the home screen.</strin
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sFa-rc-G7H">
-                                <rect key="frame" x="187" y="686" width="40" height="30"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="40" id="5N2-MT-Bys"/>
-                                    <constraint firstAttribute="height" constant="30" id="Leu-b4-bVR"/>
-                                </constraints>
+                                <rect key="frame" x="182.66666666666666" y="681" width="49" height="35"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <state key="normal" title="BACK">
                                     <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1707,20 +1612,20 @@ Music</string>
                         </subviews>
                         <color key="backgroundColor" red="0.88760961400000005" green="0.99953407049999998" blue="0.77831702579999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="sFa-rc-G7H" firstAttribute="centerX" secondItem="wRn-0m-pUH" secondAttribute="centerX" id="4fg-KC-Ehc"/>
-                            <constraint firstItem="sFa-rc-G7H" firstAttribute="centerX" secondItem="wRn-0m-pUH" secondAttribute="centerX" id="DX8-Yu-1Is"/>
                             <constraint firstItem="vAH-dv-drr" firstAttribute="bottom" secondItem="sFa-rc-G7H" secondAttribute="bottom" constant="20" id="G3T-sw-QJY"/>
                             <constraint firstItem="jZT-Md-gco" firstAttribute="centerY" secondItem="wRn-0m-pUH" secondAttribute="centerY" id="TXJ-Fs-vnl"/>
                             <constraint firstItem="jZT-Md-gco" firstAttribute="centerX" secondItem="wRn-0m-pUH" secondAttribute="centerX" id="YnZ-8c-bvm"/>
                             <constraint firstItem="Mgg-2n-fKy" firstAttribute="top" secondItem="vAH-dv-drr" secondAttribute="top" constant="24" id="Zm9-Gn-VMa"/>
+                            <constraint firstItem="sFa-rc-G7H" firstAttribute="centerX" secondItem="wRn-0m-pUH" secondAttribute="centerX" id="iVT-ox-VJh"/>
                             <constraint firstItem="Mgg-2n-fKy" firstAttribute="centerX" secondItem="wRn-0m-pUH" secondAttribute="centerX" id="m49-OD-92E"/>
+                            <constraint firstItem="vAH-dv-drr" firstAttribute="bottom" secondItem="sFa-rc-G7H" secondAttribute="bottom" constant="20" id="zZj-cv-zF6"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="vAH-dv-drr"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2gu-9U-VEf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2574" y="1735"/>
+            <point key="canvasLocation" x="2573.913043478261" y="1734.7826086956522"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="dqv-sj-BPB">
@@ -2052,11 +1957,10 @@ call</string>
         <image name="buttons_PNG140" width="600" height="557"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="8KC-AC-0Ue"/>
-        <segue reference="JmP-TU-DnP"/>
-        <segue reference="asI-aP-R0h"/>
-        <segue reference="LcL-qc-has"/>
-        <segue reference="ZlN-xC-odE"/>
+        <segue reference="50w-AR-TFW"/>
+        <segue reference="jxv-nm-gnk"/>
+        <segue reference="wQq-bK-GdB"/>
+        <segue reference="z9M-QC-wJP"/>
         <segue reference="iHu-RJ-PmN"/>
         <segue reference="lHv-c1-ViF"/>
         <segue reference="C48-G7-PH7"/>
