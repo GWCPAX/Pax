@@ -916,32 +916,36 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F2X-U3-cpT">
-                                <rect key="frame" x="151.66666666666666" y="680" width="110.99999999999997" height="64"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F2X-U3-cpT">
+                                <rect key="frame" x="140" y="593" width="135" height="123"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="64" id="VMa-b5-30M"/>
+                                    <constraint firstAttribute="width" constant="135" id="N02-JK-HzO"/>
+                                    <constraint firstAttribute="height" constant="123" id="d5J-sJ-C3o"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="43"/>
-                                <state key="normal" title="Home"/>
+                                <state key="normal" title="Home" image="Home-Button"/>
+                                <connections>
+                                    <segue destination="Umh-xZ-WmY" kind="show" id="jSL-3a-TKY"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.89812994830000004" green="0.84407998989999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="2kS-6q-6LT" firstAttribute="centerX" secondItem="Q5d-DD-n4w" secondAttribute="centerX" id="DSL-2k-YCT"/>
                             <constraint firstItem="yfz-zG-zCU" firstAttribute="top" secondItem="2kS-6q-6LT" secondAttribute="bottom" constant="113.33" id="DkX-Dl-iMt"/>
-                            <constraint firstAttribute="bottom" secondItem="F2X-U3-cpT" secondAttribute="bottom" constant="-8" id="Mdk-TN-ePr"/>
+                            <constraint firstItem="F2X-U3-cpT" firstAttribute="leading" secondItem="ayL-Hx-clg" secondAttribute="leading" constant="140" id="Jzs-cr-DfE"/>
+                            <constraint firstItem="F2X-U3-cpT" firstAttribute="centerX" secondItem="Q5d-DD-n4w" secondAttribute="centerX" id="Lbq-x2-fwy"/>
                             <constraint firstItem="yfz-zG-zCU" firstAttribute="centerX" secondItem="Q5d-DD-n4w" secondAttribute="centerX" id="NL1-SY-guz"/>
                             <constraint firstItem="yfz-zG-zCU" firstAttribute="top" secondItem="2kS-6q-6LT" secondAttribute="bottom" constant="109.67" id="P3O-dh-cT0"/>
-                            <constraint firstItem="ayL-Hx-clg" firstAttribute="trailing" secondItem="F2X-U3-cpT" secondAttribute="trailing" constant="151.33000000000001" id="R8c-Oi-fWr"/>
                             <constraint firstItem="02D-Eh-4y1" firstAttribute="top" secondItem="2kS-6q-6LT" secondAttribute="bottom" constant="174.66999999999999" id="eJq-jP-GIG"/>
+                            <constraint firstItem="ayL-Hx-clg" firstAttribute="bottom" secondItem="F2X-U3-cpT" secondAttribute="bottom" constant="20" id="eZK-re-Kd8"/>
                             <constraint firstItem="2kS-6q-6LT" firstAttribute="top" secondItem="ayL-Hx-clg" secondAttribute="top" constant="65.5" id="ev0-Ui-Inh"/>
                             <constraint firstItem="ayL-Hx-clg" firstAttribute="trailing" secondItem="2kS-6q-6LT" secondAttribute="trailing" constant="92" id="g1b-aK-5ea"/>
                             <constraint firstItem="2kS-6q-6LT" firstAttribute="leading" secondItem="ayL-Hx-clg" secondAttribute="leading" constant="92" id="gmS-y7-JAc"/>
+                            <constraint firstItem="F2X-U3-cpT" firstAttribute="centerX" secondItem="Q5d-DD-n4w" secondAttribute="centerX" id="jVy-UN-cp5"/>
                             <constraint firstItem="02D-Eh-4y1" firstAttribute="centerX" secondItem="Q5d-DD-n4w" secondAttribute="centerX" id="o9i-6Z-1BM"/>
                             <constraint firstItem="yfz-zG-zCU" firstAttribute="centerX" secondItem="Q5d-DD-n4w" secondAttribute="centerX" id="pfR-mJ-6lg"/>
-                            <constraint firstItem="F2X-U3-cpT" firstAttribute="centerX" secondItem="Q5d-DD-n4w" secondAttribute="centerX" id="phB-xn-i4o"/>
                             <constraint firstItem="2kS-6q-6LT" firstAttribute="top" secondItem="ayL-Hx-clg" secondAttribute="top" constant="62" id="qLv-mV-fAi"/>
-                            <constraint firstItem="F2X-U3-cpT" firstAttribute="leading" secondItem="ayL-Hx-clg" secondAttribute="leading" constant="151.66999999999999" id="zL0-es-IEl"/>
+                            <constraint firstItem="ayL-Hx-clg" firstAttribute="trailing" secondItem="F2X-U3-cpT" secondAttribute="trailing" constant="139" id="u8X-52-HbG"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ayL-Hx-clg"/>
                     </view>
@@ -1327,7 +1331,7 @@ instructive yoga video </string>
                                 </constraints>
                                 <state key="normal" title="Button" image="Home-Button"/>
                                 <connections>
-                                    <segue destination="Umh-xZ-WmY" kind="show" id="LcL-qc-has"/>
+                                    <segue destination="Umh-xZ-WmY" kind="show" id="PvR-uN-OXe"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -2055,7 +2059,7 @@ call</string>
         <segue reference="8KC-AC-0Ue"/>
         <segue reference="JmP-TU-DnP"/>
         <segue reference="asI-aP-R0h"/>
-        <segue reference="LcL-qc-has"/>
+        <segue reference="jSL-3a-TKY"/>
         <segue reference="ZlN-xC-odE"/>
         <segue reference="iHu-RJ-PmN"/>
         <segue reference="lHv-c1-ViF"/>
